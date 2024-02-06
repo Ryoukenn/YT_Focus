@@ -6,11 +6,17 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["activeTab", "storage", "webNavigation"],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "matches": ["https://www.youtube.com/"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
     }
   ]
 }

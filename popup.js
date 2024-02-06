@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleSwitch4.checked = result.toggleState4 || false;
     }
   );
-  console.log("working");
 });
 
 function updateToggleState(key, state) {
