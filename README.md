@@ -2,7 +2,7 @@
 
 A Chrome Extension that hides unwanted videos and distracting content on Youtube.
 
-The point of this project is to help users focus on watching what they want/need to watch and 
+The point of this project is to help users focus on watching what they want/need to watch on Youtube and 
 not get distracted from the tempting recommended videos/content.
 
 ## Table of Contents
