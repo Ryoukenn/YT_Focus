@@ -28,7 +28,7 @@ const observer = new MutationObserver(() => {
           } else {
             comment.style.display = "block";
           }
-        }, 200);
+        }, 250);
       } // Check if the current URL matches the pattern for Toggle 1
       else {
         //console.log("Toggle 1 is enabled on this page");
@@ -51,7 +51,7 @@ const observer = new MutationObserver(() => {
           } else {
             shorts.style.display = "block";
           }
-        }, 200);
+        }, 250);
       }
     }
   );
